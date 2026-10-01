@@ -18,8 +18,6 @@ Repositori ini berisi tugas individu mata kuliah **Pemrograman Berbasis Web** un
 
 ## 🌐 Tautan Pengumpulan
 
-## 🌐 Tautan Pengumpulan
-
 - **Link Deployment** : https://rosarsydh.github.io/tugas-pweb/
 - **Link Repositori** : https://github.com/rosarsydh/tugas-pweb
 
@@ -67,43 +65,18 @@ Website ini dibuat dengan tampilan **sederhana, dan menarik**:
 ```text
 Tugas PWEB/
 │
-├── index.html                  # Halaman web utama
-├── README.md                   # Dokumentasi tugas
-├── preview.png                 # Tangkapan layar website
+├── index.html                  
+├── README.md                   
+├── preview.png                 
 │
 └── assets/
     ├── css/
-    │   └── style.css           # Styling Plain CSS (Palette Navy & Putih)
+    │   └── style.css           
     ├── js/
-    │   └── script.js           # Kode interaktif Vanilla JS (DOM)
+    │   └── script.js           
     └── img/
-        ├── foto-profil.jpg     # Foto profil mahasiswa
-        ├── project-agromame.svg# Mockup visual projek Agromame
-        └── project-cfmart.svg  # Mockup visual projek CFMART
+        ├── foto-profil.jpg     
+        ├── project-agromame.svg
+        └── project-cfmart.svg  
 ```
 
----
-
-## 🚀 Panduan Menjalankan & Deployment
-
-### 1. Menjalankan di Komputer Lokal
-- Buka folder `Tugas PWEB`, lalu klik dua kali berkas `index.html` untuk membukanya di browser (Chrome, Edge, dll.).
-
-### 2. Deploy ke GitHub Pages (Gratis)
-1. Buat repositori baru di GitHub dengan nama bebas (misal `portofolio-pweb`).
-2. Jalankan perintah git pada terminal folder ini:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: inisialisasi website portofolio tugas pweb"
-   git branch -M main
-   git remote add origin https://github.com/rosarsydh/tugas-pweb.git
-   git push -u origin main
-   ```
-3. Di halaman GitHub repo kamu, klik **Settings** > **Pages** > pilih branch `main` folder `/(root)` > klik **Save**.
-4. Dalam 1–2 menit, link websitemu sudah aktif!
-
-### 3. Deploy ke Netlify (Paling Cepat Tanpa Perlu Git)
-1. Buka [app.netlify.com](https://app.netlify.com/).
-2. Tarik (drag & drop) seluruh folder `Tugas PWEB` ke halaman Netlify.
-3. Website kamu langsung aktif online dan tautannya siap dikumpulkan ke dosen/aslab!
