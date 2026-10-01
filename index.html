@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Eka Lailatur Rosyidah (Rosa)</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- navbar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="#beranda" class="nav-brand">Tugas<span>.</span>Slicing</a>
+
+      <!-- menu -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#beranda" class="nav-item">Beranda</a>
+        <a href="#tentang" class="nav-item">Tentang</a>
+        <a href="#keahlian" class="nav-item">Keahlian</a>
+        <a href="#projek" class="nav-item">Projek</a>
+        <a href="#kritik-saran" class="nav-item">Kritik &amp; Saran</a>
+      </nav>
+
+      <!-- tombol kanan -->
+      <div class="nav-right">
+        <!-- tombol merubah menjadi dark / brighht memakai dom javascript -->
+        <button id="theme-btn" class="theme-btn" aria-label="Ganti Tema" title="Ganti Mode Gelap / Cerah">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <!-- menu mobile -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Buka Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- profil -->
+  <section class="section beranda" id="beranda">
+    <div class="container beranda-wrapper">
+      <!-- kolom fotonya aku -->
+      <div class="beranda-foto">
+        <img src="assets/img/foto-profil.jpg" alt="Foto Eka Lailatur Rosyidah" class="foto-img">
+      </div>
+
+      <!-- Kolom Perkenalan -->
+      <div class="beranda-teks">
+        <span class="sub-greeting">Halo semuanya! 👋</span>
+        <h1>Eka Lailatur Rosyidah</h1>
+        <p class="role-text">Mahasiswi Teknologi Informasi | Fasilkom UNEJ</p>
+        <p class="bio-singkat">
+          Mahasiswi semester 3 yang tertarik untuk terus belajar eksplorasi bahasa pemrograman, pengolahan database, perancangan antarmuka pengguna (UI/UX), dan lain sebagainya.
+        </p>
+
+        <!-- tombol aksi -->
+        <div class="beranda-btn-group">
+          <a href="#projek" class="btn btn-navy">Lihat Projek Saya</a>
+          <a href="#kritik-saran" class="btn btn-outline">Kirim Kritik &amp; Saran</a>
+        </div>
+
+        <!-- sosial media -->
+        <div class="sosmed-group">
+          <a href="mailto:ekarosa287@gmail.com" class="sosmed-link" title="Email: ekarosa287@gmail.com">
+            <span>✉️</span> ekarosa287@gmail.com
+          </a>
+          <a href="https://instagram.com/rosarsydh" target="_blank" rel="noopener noreferrer" class="sosmed-link" title="Instagram @rosarsydh">
+            <span>📷</span> @rosarsydh
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="sosmed-link" title="LinkedIn: Eka Lailatur Rosyidah">
+            <span>💼</span> Eka Lailatur Rosyidah
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tentang saya -->
+  <section class="section tentang" id="tentang">
+    <div class="container">
+      <div class="section-title">
+        <h2>Tentang Saya</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="tentang-box">
+        <p>
+          Perkenalkan, nama lengkap saya <strong>Eka Lailatur Rosyidah</strong> dan teman-teman biasa memanggil saya <strong>Rosa</strong>. Saat ini saya adalah mahasiswi aktif semester 3 di Fakultas Ilmu Komputer (Fasilkom), Program Studi Teknologi Informasi, Universitas Jember (UNEJ).
+        </p>
+        <p>
+          Asal asli saya dari Mojokerto, Jawa Timur, dan saat ini sedang merantau di Jember untuk menuntut ilmu di bangku perkuliahan. Di kampus, saya banyak mempelajari logika pemrograman, struktur basis data, serta perancangan aplikasi baik di sisi desktop, console, web, dan lain sebagainya.
+        </p>
+        <p>
+          Website ini saya buat sebagai tugas mata kuliah <em>Pemrograman Berbasis Web (PWEB)</em> untuk mempraktikkan konsep dasar HTML,  CSS yang responsif, serta manipulasi DOM menggunakan JavaScript.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- keahlian -->
+  <section class="section keahlian" id="keahlian">
+    <div class="container">
+      <div class="section-title">
+        <h2>Keahlian &amp; Tools</h2>
+        <div class="title-line"></div>
+        <p class="section-desc">Beberapa bahasa pemrograman, database, dan software yang pernah serta sedang saya pelajari:</p>
+      </div>
+
+      <div class="skills-list">
+        <div class="skill-item">
+          <span class="skill-badge">🎨</span>
+          <strong>Figma</strong>
+          <small>UI/UX Design &amp; Wireframe</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">🖼️</span>
+          <strong>Canva</strong>
+          <small>Desain Grafis &amp; Presentasi</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">🐘</span>
+          <strong>PostgreSQL</strong>
+          <small>Database Relasional (SQL)</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">🐍</span>
+          <strong>Python</strong>
+          <small>Pemrograman Console &amp; Logika</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">💻</span>
+          <strong>C#</strong>
+          <small>Pemrograman Berorientasi Objek (OOP)</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">⚡</span>
+          <strong>Arduino</strong>
+          <small>Dasar Mikrokontroler</small>
+        </div>
+        <div class="skill-item">
+          <span class="skill-badge">🎬</span>
+          <strong>CapCut</strong>
+          <small>Editing Video Sederhana</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== projek ===== -->
+  <section class="section projek" id="projek">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projek Kuliah</h2>
+        <div class="title-line"></div>
+        <p class="section-desc">Dua projek akhir yang telah saya kerjakan bersama kelompok selama masa perkuliahan:</p>
+      </div>
+
+      <div class="projek-container">
+        
+        <!-- PROJEK 1: AGROMAME -->
+        <div class="projek-card">
+          <div class="projek-gambar">
+            <img src="assets/img/project-agromame.svg" alt="Preview Projek Agromame" class="img-preview">
+          </div>
+          <div class="projek-konten">
+            <div class="projek-label">Project Akhir Semester 1 / 2</div>
+            <h3 class="projek-judul">1. Agromame (Sistem Pendataan Produksi &amp; Stok Edamame)</h3>
+            <p class="projek-deskripsi">
+              Projek akhir menggunakan bahasa pemrograman <strong>Python berbasis Terminal / Console</strong> yang diintegrasikan secara langsung dengan database <strong>PostgreSQL</strong>.
+            </p>
+            <p class="projek-deskripsi">
+              Pada tugas kelompok ini, kami mengangkat studi kasus sistem pendataan produksi panen dan manajemen stok edamame pada <strong>PT. Mitratani Dua Tujuh</strong> di Jember, mulai dari pencatatan bobot masuk, klasifikasi mutu, hingga pemantauan stok di gudang pendingin (cold storage).
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>PostgreSQL</span>
+              <span>Console / Terminal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJEK 2: CFMART -->
+        <div class="projek-card">
+          <div class="projek-gambar">
+            <img src="assets/img/project-cfmart.svg" alt="Preview Projek CFMART" class="img-preview">
+          </div>
+          <div class="projek-konten">
+            <div class="projek-label">Project Akhir Pemrograman Berorientasi Objek (OOP)</div>
+            <h3 class="projek-judul">2. CFMART (Sistem Desktop Resto Ikan Lele)</h3>
+            <p class="projek-deskripsi">
+              Projek akhir mata kuliah <strong>OOP menggunakan C#</strong> berbasis aplikasi desktop yang diintegrasikan dengan database <strong>PostgreSQL tingkat lanjut</strong> (pengembangan lanjutan dari materi semester sebelumnya).
+            </p>
+            <p class="projek-deskripsi">
+              Kami mengambil studi kasus pada <strong>CFMART</strong>, yaitu sistem aplikasi kasir dan pencatatan operasional yang bergerak di sebuah resto penjual olahan ikan lele, mencakup pengolahan data menu makanan, transaksi kasir otomatis, hingga pembuatan laporan riwayat penjualan.
+            </p>
+            <div class="tech-tags">
+              <span>C# (.NET)</span>
+              <span>Object Oriented Programming</span>
+              <span>PostgreSQL Lanjut</span>
+              <span>Desktop GUI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- kritik dan saran -->
+  <section class="section kritik-saran" id="kritik-saran">
+    <div class="container">
+      <div class="section-title">
+        <h2>Kritik &amp; Saran</h2>
+        <div class="title-line"></div>
+        <p class="section-desc">Punya masukan, atau saran? Silakan tuliskan di bawah ini ya (bisa dikirim secara anonim):</p>
+      </div>
+
+      <div class="form-wrapper">
+        <!-- notif umpan balik DOM -->
+        <div id="pesan-sukses" class="alert-box" style="display: none;"></div>
+
+        <form id="form-kritik" class="form-kritik">
+          <div class="form-field">
+            <label for="input-nama">Nama Anda (Opsional):</label>
+            <input type="text" id="input-nama" placeholder="Contoh: Dosen / Teman Sekelas (Boleh dikosongkan jika anonim)">
+            <small class="hint-text">*Kosongkan kolom nama ini jika ingin mengirim sebagai <strong>Anonim</strong>.</small>
+          </div>
+
+          <div class="form-field">
+            <label for="input-pesan">Kritik &amp; Saran / Pesan: <span class="tanda-wajib">*</span></label>
+            <textarea id="input-pesan" rows="4" placeholder="Tuliskan kritik, masukan atau saran di sini..." required></textarea>
+            <small id="error-pesan" class="error-text"></small>
+          </div>
+
+          <button type="submit" class="btn btn-navy btn-submit" id="btn-kirim">
+            Kirim Masukan
+          </button>
+        </form>
+
+        <!-- daftar pesan yg masuk -->
+        <div class="daftar-masukan" id="daftar-masukan">
+          <h4>Masukan yang Terkirim Saat Ini:</h4>
+          <div id="wadah-pesan" class="wadah-pesan">
+            <p class="belum-ada-pesan">Belum ada masukan yang dikirim di sesi browser ini.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="tahun-footer">2026</span> <strong>Eka Lailatur Rosyidah (Rosa)</strong></p>
+      <p class="footer-sub">Mahasiswi Teknologi Informasi - Fakultas Ilmu Komputer, Universitas Jember</p>
+      <p class="footer-tugas">Dibuat untuk Tugas Slicing Web Mata Kuliah Pemrograman Berbasis Web</p>
+    </div>
+  </footer>
+
+  <!-- file javascript dom -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
